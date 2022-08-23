@@ -1,34 +1,32 @@
-body {
-    margin: 0;
-}
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 body {
     font-family: "Poppins", sans-serif;
+    margin: 0;
 }
 
 /* header */
-.top-img {
+.header_bg {
     background-image: url(images/donation13.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    color: rgb(255, 255, 255);
+    color: white;
     background-position: center;
 }
-h1 {
-    font-size: 48px;
-}
+
 .center-text {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.top-img div {
-    width: 50%;
+.header_bg div {
+    width: 60%;
     text-align: center;
     margin-top: 16%;
     margin-bottom: 16%;
 }
+
 .button_style {
     text-decoration: none;
     color: white;
@@ -37,4 +35,156 @@ h1 {
     border-radius: 5px;
     margin-top: 5%;
     display: inline-block;
+}
+
+.heading_text_size {
+    font-size: 48px;
+}
+
+/* section 2, donation */
+.div_center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div_center div {
+    width: 60%;
+    text-align: center;
+    margin: 3% 0;
+}
+
+.dis_flex {
+    display: flex;
+}
+
+.dis_flex div {
+    padding: 42px;
+    margin-left: 13px;
+    background-color: rgb(187, 187, 187);
+    border-radius: 5px;
+    color: white;
+}
+
+#mark-donate {
+    background-color: tomato;
+    border: 3px solid rgb(255, 38, 0);
+}
+
+#input_money {
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    outline: none;
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+    color: rgb(175, 175, 175);
+    border-color: rgb(209, 209, 209);
+}
+
+/* section 3 */
+.container_center {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 80%;
+}
+
+.text_center {
+    text-align: center;
+}
+
+.box_btm_pading {
+    margin-bottom: 5%;
+}
+
+.w_50 {
+    width: 50%;
+}
+
+.donation_plan_flex {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.img_width {
+    width: 20%;
+}
+
+#donation_blue {
+    background-color: #69bdc6;
+    border: 2px solid #1095a4;
+    color: black;
+}
+
+#donation_red {
+    background-color: #eb8282;
+    border: 2px solid #d72121;
+    color: black;
+}
+
+#donation_green {
+    background-color: #f0deae;
+    border: 2px solid #ffe498;
+    color: black;
+}
+/* money explain */
+.money_gos_point li {
+    background-color: rgb(255, 61, 61);
+    padding: 20px 60px;
+    margin: 10px 0;
+    border: 3px solid rgb(255, 0, 0);
+    font-weight: 800;
+    list-style-type: none;
+    border-radius: 5px;
+    width: 100%;
+}
+.container-mn {
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+}
+
+/* subscribe section */
+.bg_style {
+    background-color: #fff4d6;
+    padding: 80px 170px;
+}
+
+#subs_input {
+    padding: 10px 35px;
+    outline: none;
+    border: none;
+    background-color: rgb(223, 223, 223);
+    border-radius: 5px;
+}
+
+.subs_btn {
+    background-color: #ff5959;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 0 5px 5px 0;
+    margin-left: -15px;
+}
+
+/* footer */
+.footer_bg {
+    background-color: #0b0d17;
+    color: #ffffff;
+}
+
+.footer_bg h1 {
+    font-family: "Lobster", cursive;
+    color: #ff5959;
+    padding-top: 20px;
+}
+
+.span_pad_btn {
+    display: block;
+    padding-bottom: 50px;
 }
